@@ -1,0 +1,65 @@
+<div class="container">
+  <div class=" align-center p-3">
+  <p>Trusted by Companies like</p>  
+  <div class="card-group p-5">
+        <div class="card" *ngFor="let img of imgArray">
+          <img [src]= "img" class="card-img-top" alt="...">
+        </div>
+    </div>
+
+    <div class="flex-flow">
+    <div> <img [src]="imgLeft" alt="">
+    </div>
+    <div class="align-left">
+      <h3><b>Awesome App features</b></h3>
+    <p>Increase productivity with a simple to-do app. App for <br> managing  your personal budgets</p>
+      <div class="row row-cols-1" *ngFor="let img of imgIcon" >
+        <div class="col col-img-content flex-flow">
+          <div class="col-img-left"><img class="img-circle" [src]="img.img" alt=""></div> 
+          <div><p [style.color]="img.color" ><b>{{img.title}}</b></p>
+          <p class="text-wrap">Get your blood delivered at home collect sample from the news your blood tests</p>
+        </div>
+      </div>
+    </div>
+ 
+    </div>
+    </div>
+  <div class="flex-flow">
+    <div class="col-lg-3 align-right" [ngStyle]="{'margin-right':'20px'}">
+      <h3>Smart jackpots that you may love this anytime & anywhere</h3>
+      </div>
+    <div class="colg-lg-1 vl">
+
+     </div>
+     <div class="col-lg-3 align-left" [ngStyle]="{'margin-left':'20px'}">
+      This rise of mobile devices transform the way we consume information entirely and the world's most elevant channels such as Facebook
+     </div>
+   
+  </div>
+
+<div class=" row flex-flow p-5">
+  <div class="col-lg-4" *ngFor="let img of imgIconOne " >
+    <div class=" col-img-content align-left">
+      <div class="col-img-left"><img class="img-circle" [src]="img.img" alt=""></div> 
+      <div><p [style.color]="img.color" ><b>{{img.title}}</b></p>
+      <p class="text-wrap">Get your blood delivered at home collect sample from the news your blood tests</p>
+    </div>
+  </div>
+</div>
+</div>
+  
+
+<div class="row p-5">
+  <div class="col-lg-6 imgDesign"></div>
+  <div class="col-lg-6 text-start p-5 align-center"> <h2 class="heading text-start">Designed & built by the latest code integration</h2>
+         <p class="text-wrap text-left">The rise of mobile devices tranforms the way  we consume information  entirely  and the world's  most elevant  channels  such as Facebook</p>
+  <button class="btn-border">Learn More</button>
+        </div>
+</div>
+
+
+
+</div>
+
+
+</div>

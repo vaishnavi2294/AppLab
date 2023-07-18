@@ -1,0 +1,25 @@
+.card img{
+    border:0;
+    width: 100px
+}
+
+.card{
+    width: 0;
+    padding:0;
+    margin:0;
+    border:none
+}
+
+.card-group{
+    display: inline-flex;
+    width:700px;
+    border: none;
+}
+.imgDesign{
+    background-image: url('src/assets/images/design.png') ;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    
+
+}

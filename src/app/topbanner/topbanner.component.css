@@ -1,0 +1,43 @@
+.container{
+     background-image: url("src/assets/images/bottombackground.png") ;
+     background-position: bottom;
+     background-repeat: repeat-x;
+     background-size: 50%;
+     width:100%;
+}
+
+.btn-border{
+    border-radius:30px;
+    background-color: #2500f9;
+    color:#ffffff;
+    border:#2500f9;
+    padding:8px 18px;
+    margin:10px
+}
+.img{
+    /* background-image:url('../images/mobile_UIUXtest.png'); */
+    width:100%;
+    float:right;
+    height:100%;
+    display:inline-flex;
+    justify-content: baseline;
+    padding:30px;
+    
+}
+.flex-flow{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    float:right;
+}
+.box{
+    width:60%;
+}
+.title{
+    justify-content: flex-end;
+    align-items: center;
+    display: inline-flex;
+    padding: 20px;
+    
+
+}

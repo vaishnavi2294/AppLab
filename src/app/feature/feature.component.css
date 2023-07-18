@@ -1,0 +1,25 @@
+ul>li{
+    padding:10px
+}
+.flex-flow{
+    flex-wrap: wrap;
+}
+
+
+.form-switch .form-check-input:checked {
+    background-position: right center;
+    --bs-form-switch-bg: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='10' fill='%23fff'/%3e%3c/svg%3e);
+}
+.btn-border-white{
+   background-color: rgb(244, 243, 242);
+   border-radius: 30px;
+   padding: 10px 18px;
+   margin-left:-25px;
+   z-index: -1;
+   border: 0;
+
+}
+.btn-border{
+    z-index: 999;
+    position: relative;
+}

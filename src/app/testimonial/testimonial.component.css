@@ -1,0 +1,19 @@
+.testimonialImg {
+    background: url('src/assets/images/client.png');
+    padding:0px;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.accordion-button{
+    background-color:#f5f7fa;
+}
+.accordion{
+    --bs-accordion-bg: #f5f7fa;
+    border:0px;
+    width:auto
+}
+.accordion-item{
+    border:0px
+}

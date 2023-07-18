@@ -1,0 +1,24 @@
+.nav-link{
+    color:black;
+    width: 200px;
+}
+.nav-item{
+    width:100px
+}
+.flex-flow{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+   
+}
+.navbar-left{
+    float: left;
+}
+.navbar-right{
+    float: right!important;
+}
+
+
+.navbar{
+    background:#fdfdfe;
+}
